@@ -1,2 +1,5 @@
-#3d scanner project
+#3d scanner project 
+version 0.0
+
+
 
