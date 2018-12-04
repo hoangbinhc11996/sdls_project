@@ -269,8 +269,8 @@ class PreferencesDialog(wx.Dialog):
             if self.baud_rate_combo.GetValue() in self.baud_rates:
                 profile.settings['baud_rate'] = int(self.baud_rate_combo.GetValue())
             profile.settings['board'] = self.boards_combo.GetValue()
-            if profile.settings['language'] != self.language_combo.GetValue():
-                profile.settings['language'] = self.language_combo.GetValue()
+            # if profile.settings['language'] != self.language_combo.GetValue():
+                # profile.settings['language'] = self.language_combo.GetValue()
         profile.settings.save_settings(categories=["preferences"])
         # Update engine
         driver.camera.camera_id = int(profile.settings['camera_id'][-1:])

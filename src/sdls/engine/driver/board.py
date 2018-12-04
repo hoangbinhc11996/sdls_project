@@ -73,9 +73,9 @@ class Board(object):
             if self._serial_port.isOpen():
                 self._reset()  # Force Reset and flush
                 version = self._serial_port.readline()
-                if "Horus 0.1 ['$' for help]" in version:
+                if "SDLs 0.0" in version:
                     raise OldFirmware()
-                elif "Horus 0.2 ['$' for help]" in version:
+                elif "SDLs 0.1" in version:
                     self.motor_speed(1)
                     self._serial_port.timeout = 0.05
                     self._is_connected = True

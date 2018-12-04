@@ -160,6 +160,7 @@ class Camera(object):
             brightness = self.get_brightness()
             if brightness is not None:
                 c_bri = brightness >= 2
+
         except:
             raise WrongCamera()
 
