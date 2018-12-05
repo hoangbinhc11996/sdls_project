@@ -10,30 +10,33 @@
   #define SERIAL_UDRE USART_UDRE_vect
 
   // Define laser pulse output pins. NOTE: All laser pins must be on the same port.
-  #define LASER_DDR       DDRD
-  #define LASER_PORT      PORTD
-  #define LASER1_BIT      2  // Uno Digital Pin 2
-  #define LASER2_BIT      3  // Uno Digital Pin 3
-  #define LASER3_BIT      4  // Uno Digital Pin 4
-  #define LASER4_BIT      5  // Uno Digital Pin 5
+  #define LASER_DDR       DDRB
+  #define LASER_PORT      PORTB
+  #define LASER1_BIT      1  // Uno Digital Pin 11
+  #define LASER2_BIT      2  // Uno Digital Pin 12
+  #define LASER3_BIT      3  // Uno Digital Pin 13
+  #define LASER4_BIT      4  // Uno Digital Pin 14
   #define LASER_MASK      ((1<<LASER1_BIT)|(1<<LASER2_BIT)|(1<<LASER3_BIT)|(1<<LASER4_BIT)) // All step bits
 
-  // Define step pulse output pins. NOTE: All step bit pins must be on the same port.
-  #define STEP_DDR        DDRB
-  #define STEP_PORT       PORTB
-  #define X_STEP_BIT      4  // Uno Digital Pin 12
-  #define STEP_MASK       (1<<X_STEP_BIT) // All step bits
 
-  // Define step direction output pins. NOTE: All direction pins must be on the same port.
-  #define DIRECTION_DDR     DDRB
-  #define DIRECTION_PORT    PORTB
-  #define X_DIRECTION_BIT   5  // Uno Digital Pin 13
-  #define DIRECTION_MASK    (1<<X_DIRECTION_BIT) // All direction bits
+  #define STEP_DDR        DDRD
+  #define STEP_PORT       PORTD
+  #define X_STEP_BIT      2  // Uno Digital Pin 2
+  #define Y_STEP_BIT      3  // Uno Digital Pin 3
+  #define Z_STEP_BIT      4  // Uno Digital Pin 4
+  #define STEP_MASK       ((1<<X_STEP_BIT)|(1<<Y_STEP_BIT)|(1<<Z_STEP_BIT)) // All step bits
 
-  // Define stepper driver enable/disable output pin.
+  #define DIRECTION_DDR     DDRD
+  #define DIRECTION_PORT    PORTD
+  #define X_DIRECTION_BIT   5  // Uno Digital Pin 5
+  #define Y_DIRECTION_BIT   6  // Uno Digital Pin 6
+  #define Z_DIRECTION_BIT   7  // Uno Digital Pin 7
+  #define DIRECTION_MASK    ((1<<X_DIRECTION_BIT)|(1<<Y_DIRECTION_BIT)|(1<<Z_DIRECTION_BIT)) // All direction bits
+
+
   #define STEPPERS_DISABLE_DDR    DDRB
   #define STEPPERS_DISABLE_PORT   PORTB
-  #define STEPPERS_DISABLE_BIT    1  // Uno Digital Pin 9
+  #define STEPPERS_DISABLE_BIT    0  // Uno Digital Pin 8
   #define STEPPERS_DISABLE_MASK   (1<<STEPPERS_DISABLE_BIT)
 
   // Define probe switch input pin.
