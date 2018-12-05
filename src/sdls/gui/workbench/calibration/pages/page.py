@@ -17,6 +17,7 @@ class Page(wx.Panel):
         title_text = wx.StaticText(self, label=title)
         title_font = title_text.GetFont()
         title_font.SetWeight(wx.BOLD)
+        title_font.SetPointSize(15)
         title_text.SetFont(title_font)
         if desc != "":
             self.desc_text = wx.StaticText(self, label=desc)

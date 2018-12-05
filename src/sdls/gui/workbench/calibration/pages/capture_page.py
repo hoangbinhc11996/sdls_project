@@ -89,6 +89,7 @@ class CapturePage(Page):
                     self.gauge.SetValue(self.current_grid * 100.0 / self.rows / self.columns)
             self.video_view.play()
 
+
     def add_frame_to_grid(self, image):
         if self.current_grid < (self.columns * self.rows):
             self.panel_grid[self.current_grid].set_frame(image)

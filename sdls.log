@@ -1,240 +1,165 @@
-2018-12-04 15:53:22.317 - Start application SDLs 1.3
-2018-12-04 15:54:09.357 - Finish application SDLs 1.3
-2018-12-04 15:54:13.923 - Start application SDLs 1.3
-2018-12-04 15:54:17.149 - Connecting camera 0
-2018-12-04 15:54:18.459 - Disconnecting camera 0
-2018-12-04 15:54:18.460 -  Done
-2018-12-04 15:54:24.677 - Connecting camera 1
-2018-12-04 15:54:25.130 - Disconnecting camera 1
-2018-12-04 15:54:25.131 -  Done
-2018-12-04 15:54:37.540 - Finish application SDLs 1.3
-2018-12-04 16:08:44.059 - Start application SDLs 1.3
-2018-12-04 16:08:48.022 - Connecting camera 1
-2018-12-04 16:08:50.321 - Disconnecting camera 1
-2018-12-04 16:08:50.323 -  Done
-2018-12-04 16:08:59.035 - Connecting camera 1
-2018-12-04 16:08:59.383 - Disconnecting camera 1
-2018-12-04 16:08:59.383 -  Done
-2018-12-04 16:09:04.245 - Finish application SDLs 1.3
-2018-12-04 16:36:02.144 - Start application SDLs 1.3
-2018-12-04 16:36:05.418 - Connecting camera 1
-2018-12-04 16:36:07.714 - Disconnecting camera 1
-2018-12-04 16:36:07.715 -  Done
-2018-12-04 16:36:14.867 - Finish application SDLs 1.3
-2018-12-04 16:37:21.183 - Start application SDLs 1.3
-2018-12-04 16:37:24.443 - Connecting camera 1
-2018-12-04 16:37:27.422 - Disconnecting camera 1
-2018-12-04 16:37:27.424 -  Done
-2018-12-04 16:40:07.501 - Connecting camera 1
-2018-12-04 16:40:07.850 - Disconnecting camera 1
-2018-12-04 16:40:07.851 -  Done
-2018-12-04 16:40:12.998 - Finish application SDLs 1.3
-2018-12-04 16:56:15.603 - Start application SDLs 1.3
-2018-12-04 16:56:18.214 - Connecting camera 1
-2018-12-04 16:56:20.463 -  Done
-2018-12-04 16:56:20.463 - Connecting board /dev/ttyACM0 115200
-2018-12-04 16:56:20.464 - Error opening the port /dev/ttyACM0
+2018-12-05 15:19:34.152 - Connecting camera 1
+2018-12-05 15:19:36.406 -  Done
+2018-12-05 15:19:36.406 - Connecting board /dev/ttyACM0 115200
+2018-12-05 15:19:38.088 -  Done
+2018-12-05 15:24:49.153 - Laser calibration 0
+2018-12-05 15:24:49.154 -  Distance: 230.935526317
+2018-12-05 15:24:49.154 -  Normal: [ 0.74777163 -0.00152002  0.66395428]
+2018-12-05 15:24:49.154 -  Standard deviation: 0.0429724233238
+2018-12-05 15:24:49.154 -  Point cloud size: 3317
+2018-12-05 15:24:49.639 - Laser calibration 1
+2018-12-05 15:24:49.639 -  Distance: 221.984274429
+2018-12-05 15:24:49.640 -  Normal: [-0.78435867 -0.02848299  0.61965328]
+2018-12-05 15:24:49.641 -  Standard deviation: 0.0402646241524
+2018-12-05 15:24:49.641 -  Point cloud size: 3762
+2018-12-05 15:26:02.738 - Platform calibration 
+2018-12-05 15:26:02.739 -  Translation: [  -1.26341706   92.9969947   359.09863242]
+2018-12-05 15:26:02.739 -  Rotation: [[  0.00000000e+00   9.99982940e-01  -5.84121086e-03] [  1.51420468e-02  -5.84054118e-03  -9.99868295e-01] [ -9.99885353e-01  -8.84478884e-05  -1.51417885e-02]]
+2018-12-05 15:26:02.740 -  Normal: [-0.00584121 -0.99986829 -0.01514179]
+2018-12-05 15:27:08.238 - Platform calibration 
+2018-12-05 15:27:08.238 -  Translation: [  -1.25787977   92.99069934  359.06773876]
+2018-12-05 15:27:08.239 -  Rotation: [[  0.00000000e+00   9.99981591e-01  -6.06768700e-03] [  1.53380649e-02  -6.06697323e-03  -9.99863959e-01] [ -9.99882365e-01  -9.30665772e-05  -1.53377826e-02]]
+2018-12-05 15:27:08.239 -  Normal: [-0.00606769 -0.99986396 -0.01533778]
+2018-12-05 15:28:24.935 - Start scan
+2018-12-05 15:31:47.409 - Finish scan 35 %  Time 03' 19"
+2018-12-05 15:40:11.206 - Start application SDLs 1.3
+2018-12-05 15:40:24.402 - Connecting camera 1
+2018-12-05 15:40:26.666 -  Done
+2018-12-05 15:40:26.666 - Connecting board /dev/ttyACM0 115200
+2018-12-05 15:40:30.671 - Error opening the port /dev/ttyACM0
 
-2018-12-04 16:56:20.464 - Disconnecting camera 1
-2018-12-04 16:56:20.465 -  Done
-2018-12-04 16:58:09.676 - Uploading firmware: 
-2018-12-04 16:58:09.677 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 19200 -D -U flash:w:sdls-fw.hex
-2018-12-04 16:58:58.737 - Finish application SDLs 1.3
-2018-12-04 16:59:10.118 - Start application SDLs 1.3
-2018-12-04 16:59:28.170 - Uploading firmware: 
-2018-12-04 16:59:28.171 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM1 -b 115200 -D -U flash:w:eeprom_clear.hex
-2018-12-04 16:59:28.182 -  Upload completed
-2018-12-04 16:59:31.185 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM1 -b 115200 -D -U flash:w:sdls-fw.hex
-2018-12-04 16:59:31.194 -  Upload completed
-2018-12-04 17:00:05.551 - Uploading firmware: 
-2018-12-04 17:00:05.551 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM1 -b 115200 -D -U flash:w:eeprom_clear.hex
-2018-12-04 17:00:05.563 -  Upload completed
-2018-12-04 17:00:08.566 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM1 -b 115200 -D -U flash:w:sdls-fw.hex
-2018-12-04 17:00:08.576 -  Upload completed
-2018-12-04 17:00:29.184 - Finish application SDLs 1.3
-2018-12-04 17:01:13.018 - Start application SDLs 1.3
-2018-12-04 17:01:21.297 - Uploading firmware: 
-2018-12-04 17:01:21.297 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:eeprom_clear.hex
-2018-12-04 17:01:21.308 -  Upload completed
-2018-12-04 17:01:24.311 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:sdls-fw.hex
-2018-12-04 17:01:24.324 -  Upload completed
-2018-12-04 17:01:29.847 - Finish application SDLs 1.3
-2018-12-04 17:04:28.979 - Start application SDLs 1.3
-2018-12-04 17:04:37.415 - Uploading firmware: 
-2018-12-04 17:04:37.416 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:eeprom_clear.hex
-2018-12-04 17:04:38.854 -  Upload completed
-2018-12-04 17:04:41.859 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:sdls-fw.hex
-2018-12-04 17:04:49.463 -  Upload completed
-2018-12-04 17:05:08.357 - Connecting camera 1
-2018-12-04 17:05:10.645 -  Done
-2018-12-04 17:05:10.645 - Connecting board /dev/ttyACM0 115200
-2018-12-04 17:05:12.323 -  Done
-2018-12-04 17:10:47.073 - Laser calibration 0
-2018-12-04 17:10:47.073 -  Distance: 188.305144932
-2018-12-04 17:10:47.074 -  Normal: [ 0.75149097 -0.01278571  0.65961947]
-2018-12-04 17:10:47.074 -  Standard deviation: 0.0410970982469
-2018-12-04 17:10:47.074 -  Point cloud size: 3293
-2018-12-04 17:10:47.200 - Laser calibration 1
-2018-12-04 17:10:47.201 -  Distance: 184.169466544
-2018-12-04 17:10:47.201 -  Normal: [-0.77364985 -0.0278141   0.6330026 ]
-2018-12-04 17:10:47.201 -  Standard deviation: 0.0528432261128
-2018-12-04 17:10:47.201 -  Point cloud size: 1661
-2018-12-04 17:12:17.237 - Platform calibration 
-2018-12-04 17:12:17.238 -  Translation: [  -1.160592     87.27817227  292.81673808]
-2018-12-04 17:12:17.238 -  Rotation: [[  0.00000000e+00   9.99990096e-01  -4.45065375e-03] [  2.66002183e-02  -4.44907890e-03  -9.99636251e-01] [ -9.99646152e-01  -1.18388361e-04  -2.65999548e-02]]
-2018-12-04 17:12:17.238 -  Normal: [-0.00445065 -0.99963625 -0.02659995]
-2018-12-04 17:12:48.443 - Start scan
-2018-12-04 17:18:16.697 - Finish scan 59 %  Time 05' 26"
-2018-12-04 17:19:43.531 - Disconnecting camera 1
-2018-12-04 17:19:43.533 -  Done
-2018-12-04 17:19:43.533 - Disconnecting board /dev/ttyACM0
-2018-12-04 17:19:43.610 -  Done
-2018-12-04 17:19:46.177 - Finish application SDLs 1.3
-2018-12-04 17:43:52.042 - Start application SDLs 1.3
-2018-12-04 17:44:22.957 - Connecting camera 1
-2018-12-04 17:44:25.794 -  Done
-2018-12-04 17:44:25.795 - Connecting board /dev/ttyACM0 115200
-2018-12-04 17:44:25.795 - Error opening the port /dev/ttyACM0
+2018-12-05 15:40:30.672 - Disconnecting camera 1
+2018-12-05 15:40:30.674 -  Done
+2018-12-05 15:40:35.147 - Uploading firmware: 
+2018-12-05 15:40:35.148 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:eeprom_clear.hex
+2018-12-05 15:40:36.586 -  Upload completed
+2018-12-05 15:40:39.590 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:sdls-fw.hex
+2018-12-05 15:40:47.391 -  Upload completed
+2018-12-05 15:40:52.441 - Connecting camera 1
+2018-12-05 15:40:54.689 -  Done
+2018-12-05 15:40:54.689 - Connecting board /dev/ttyACM0 115200
+2018-12-05 15:40:54.691 - Error opening the port /dev/ttyACM0
 
-2018-12-04 17:44:25.795 - Disconnecting camera 1
-2018-12-04 17:44:25.796 -  Done
-2018-12-04 17:48:04.345 - Connecting camera 1
-2018-12-04 17:48:06.592 -  Done
-2018-12-04 17:48:06.592 - Connecting board /dev/ttyACM0 115200
-2018-12-04 17:48:10.597 - Error opening the port /dev/ttyACM0
-
-2018-12-04 17:48:10.598 - Disconnecting camera 1
-2018-12-04 17:48:10.601 -  Done
-2018-12-04 17:48:19.519 - Uploading firmware: 
-2018-12-04 17:48:19.521 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:sdls-fw.hex
-2018-12-04 17:48:27.128 -  Upload completed
-2018-12-04 17:48:33.399 - Connecting camera 1
-2018-12-04 17:48:35.644 -  Done
-2018-12-04 17:48:35.644 - Connecting board /dev/ttyACM0 115200
-2018-12-04 17:48:37.289 -  Done
-2018-12-04 17:57:19.722 - Laser calibration 0
-2018-12-04 17:57:19.722 -  Distance: 186.853724874
-2018-12-04 17:57:19.723 -  Normal: [ 0.76963311 -0.02318254  0.6380654 ]
-2018-12-04 17:57:19.723 -  Standard deviation: 0.0417479638896
-2018-12-04 17:57:19.723 -  Point cloud size: 3049
-2018-12-04 17:57:19.952 - Laser calibration 1
-2018-12-04 17:57:19.953 -  Distance: 185.093661944
-2018-12-04 17:57:19.953 -  Normal: [-0.77012454 -0.03584949  0.63688539]
-2018-12-04 17:57:19.953 -  Standard deviation: 0.0288808062455
-2018-12-04 17:57:19.953 -  Point cloud size: 2009
-2018-12-04 17:58:34.581 - Platform calibration 
-2018-12-04 17:58:34.581 -  Translation: [   2.87715665   81.46586574  297.34540304]
-2018-12-04 17:58:34.582 -  Rotation: [[  0.00000000e+00   9.99967106e-01  -8.11088575e-03] [  4.76597688e-02  -8.10166876e-03  -9.98830771e-01] [ -9.98863628e-01  -3.86562939e-04  -4.76582011e-02]]
-2018-12-04 17:58:34.583 -  Normal: [-0.00811089 -0.99883077 -0.0476582 ]
-2018-12-04 17:58:45.369 - Start scan
-2018-12-05 09:11:24.795 - Start application SDLs 1.3
-2018-12-05 09:12:44.750 - Connecting camera 0
-2018-12-05 09:12:46.132 - Disconnecting camera 0
-2018-12-05 09:12:46.133 -  Done
-2018-12-05 09:12:58.752 - Connecting camera 1
-2018-12-05 09:13:01.095 -  Done
-2018-12-05 09:13:01.096 - Connecting board /dev/ttyACM0 115200
-2018-12-05 09:13:02.768 -  Done
-2018-12-05 09:18:06.510 - Disconnecting camera 1
-2018-12-05 09:18:06.512 -  Done
-2018-12-05 09:18:06.512 - Disconnecting board /dev/ttyACM0
-2018-12-05 09:18:06.513 -  Done
-2018-12-05 09:21:43.941 - Connecting camera 1
-2018-12-05 09:21:46.191 -  Done
-2018-12-05 09:21:46.192 - Connecting board /dev/ttyACM0 115200
-2018-12-05 09:21:47.868 -  Done
-2018-12-05 09:26:07.912 - Laser calibration 0
-2018-12-05 09:26:07.912 -  Distance: 183.960544612
-2018-12-05 09:26:07.913 -  Normal: [ 0.78211815 -0.02732357  0.62253082]
-2018-12-05 09:26:07.913 -  Standard deviation: 0.0608123750202
-2018-12-05 09:26:07.913 -  Point cloud size: 3686
-2018-12-05 09:26:08.204 - Laser calibration 1
-2018-12-05 09:26:08.204 -  Distance: 186.605804818
-2018-12-05 09:26:08.205 -  Normal: [-0.76531415 -0.0437607   0.64216762]
-2018-12-05 09:26:08.205 -  Standard deviation: 0.039726482934
-2018-12-05 09:26:08.205 -  Point cloud size: 2839
-2018-12-05 09:27:54.079 - Platform calibration 
-2018-12-05 09:27:54.080 -  Translation: [   3.22065766   78.88659403  298.74051147]
-2018-12-05 09:27:54.081 -  Rotation: [[  0.00000000e+00   9.99972221e-01  -7.45365789e-03] [  5.46927894e-02  -7.44250147e-03  -9.98475492e-01] [ -9.98503229e-01  -4.07661341e-04  -5.46912701e-02]]
-2018-12-05 09:27:54.081 -  Normal: [-0.00745366 -0.99847549 -0.05469127]
-2018-12-05 09:30:04.537 - Start scan
-2018-12-05 09:39:09.179 - Finish scan 100 %  Time 09' 04"
-2018-12-05 09:40:32.448 - Disconnecting camera 1
-2018-12-05 09:40:32.450 -  Done
-2018-12-05 09:40:32.450 - Disconnecting board /dev/ttyACM0
-2018-12-05 09:40:32.451 -  Done
-2018-12-05 09:40:37.308 - Finish application SDLs 1.3
-2018-12-05 09:43:57.132 - Start application SDLs 1.3
-2018-12-05 09:43:59.563 - Connecting camera 1
-2018-12-05 09:44:01.802 -  Done
-2018-12-05 09:44:01.802 - Connecting board /dev/ttyACM0 115200
-2018-12-05 09:44:03.480 -  Done
-2018-12-05 09:44:08.795 - Disconnecting camera 1
-2018-12-05 09:44:08.796 -  Done
-2018-12-05 09:44:08.796 - Disconnecting board /dev/ttyACM0
-2018-12-05 09:44:08.797 -  Done
-2018-12-05 09:45:13.001 - Finish application SDLs 1.3
-2018-12-05 12:05:44.023 - Start application SDLs 1.3
-2018-12-05 12:05:57.117 - Uploading firmware: 
-2018-12-05 12:05:57.118 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:eeprom_clear.hex
-2018-12-05 12:05:58.557 -  Upload completed
-2018-12-05 12:06:01.561 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:sdls-fw.hex
-2018-12-05 12:06:09.366 -  Upload completed
-2018-12-05 12:06:14.358 - Connecting camera 1
-2018-12-05 12:06:16.620 -  Done
-2018-12-05 12:06:16.620 - Connecting board /dev/ttyACM0 115200
-2018-12-05 12:06:16.621 - Error opening the port /dev/ttyACM0
-
-2018-12-05 12:06:16.622 - Disconnecting camera 1
-2018-12-05 12:06:16.623 -  Done
-2018-12-05 12:08:59.352 - Finish application SDLs 1.3
-2018-12-05 12:14:35.683 - Start application SDLs 1.3
-2018-12-05 12:14:43.521 - Uploading firmware: 
-2018-12-05 12:14:43.522 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:eeprom_clear.hex
-2018-12-05 12:14:44.959 -  Upload completed
-2018-12-05 12:14:47.963 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:sdls-fw.hex
-2018-12-05 12:14:55.637 -  Upload completed
-2018-12-05 12:14:58.889 - Connecting camera 1
-2018-12-05 12:15:01.153 -  Done
-2018-12-05 12:15:01.153 - Connecting board /dev/ttyACM0 115200
-2018-12-05 12:15:01.155 - Error opening the port /dev/ttyACM0
-
-2018-12-05 12:15:01.156 - Disconnecting camera 1
-2018-12-05 12:15:01.157 -  Done
-2018-12-05 12:16:45.309 - Finish application SDLs 1.3
-2018-12-05 12:18:41.213 - Start application SDLs 1.3
-2018-12-05 12:18:51.555 - Uploading firmware: 
-2018-12-05 12:18:51.556 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:sdls-fw.hex
-2018-12-05 12:18:51.565 -  Upload completed
-2018-12-05 12:18:58.436 - Uploading firmware: 
-2018-12-05 12:18:58.436 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:eeprom_clear.hex
-2018-12-05 12:18:58.448 -  Upload completed
-2018-12-05 12:19:01.452 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:sdls-fw.hex
-2018-12-05 12:19:01.469 -  Upload completed
-2018-12-05 12:19:12.577 - Connecting camera 1
-2018-12-05 12:19:14.826 -  Done
-2018-12-05 12:19:14.827 - Connecting board /dev/ttyACM0 115200
-2018-12-05 12:19:14.827 - Error opening the port /dev/ttyACM0
-
-2018-12-05 12:19:14.827 - Disconnecting camera 1
-2018-12-05 12:19:14.828 -  Done
-2018-12-05 12:19:37.495 - Uploading firmware: 
-2018-12-05 12:19:37.496 -  avrdude -C /home/hoangchu/Desktop/sdls_project/res/tools/linux/avrdude.conf -c arduino -p atmega328p -P /dev/ttyACM0 -b 115200 -D -U flash:w:sdls-fw.hex
-2018-12-05 12:19:45.295 -  Upload completed
-2018-12-05 12:19:48.359 - Connecting camera 1
-2018-12-05 12:19:50.604 -  Done
-2018-12-05 12:19:50.605 - Connecting board /dev/ttyACM0 115200
-2018-12-05 12:19:52.255 -  Done
-2018-12-05 12:20:22.727 - Disconnecting camera 1
-2018-12-05 12:20:22.729 -  Done
-2018-12-05 12:20:22.730 - Disconnecting board /dev/ttyACM0
-2018-12-05 12:20:22.731 -  Done
-2018-12-05 12:20:48.326 - Connecting camera 1
-2018-12-05 12:20:50.606 -  Done
-2018-12-05 12:20:50.606 - Connecting board /dev/ttyACM0 115200
-2018-12-05 12:20:52.255 -  Done
-2018-12-05 13:07:29.474 - Disconnecting camera 1
-2018-12-05 13:07:29.476 -  Done
-2018-12-05 13:07:29.477 - Disconnecting board /dev/ttyACM0
-2018-12-05 13:07:29.478 -  Done
-2018-12-05 13:07:29.598 - Finish application SDLs 1.3
+2018-12-05 15:40:54.692 - Disconnecting camera 1
+2018-12-05 15:40:54.693 -  Done
+2018-12-05 15:41:17.923 - Connecting camera 1
+2018-12-05 15:41:20.174 -  Done
+2018-12-05 15:41:20.174 - Connecting board /dev/ttyACM0 115200
+2018-12-05 15:41:21.856 -  Done
+2018-12-05 15:42:30.145 - Platform calibration 
+2018-12-05 15:42:30.145 -  Translation: [  -1.40371103   93.0143473   360.04757035]
+2018-12-05 15:42:30.146 -  Rotation: [[  0.00000000e+00   9.99985609e-01  -5.36486151e-03] [  1.49920655e-02  -5.36425857e-03  -9.99873223e-01] [ -9.99887613e-01  -8.04303554e-05  -1.49918498e-02]]
+2018-12-05 15:42:30.146 -  Normal: [-0.00536486 -0.99987322 -0.01499185]
+2018-12-05 15:47:25.312 - Disconnecting camera 1
+2018-12-05 15:47:25.314 -  Done
+2018-12-05 15:47:25.314 - Disconnecting board /dev/ttyACM0
+2018-12-05 15:47:25.315 -  Done
+2018-12-05 15:47:26.280 - Finish application SDLs 1.3
+2018-12-05 15:47:30.456 - Start application SDLs 1.3
+2018-12-05 15:47:33.065 - Connecting camera 1
+2018-12-05 15:47:35.318 -  Done
+2018-12-05 15:47:35.318 - Connecting board /dev/ttyACM0 115200
+2018-12-05 15:47:36.997 -  Done
+2018-12-05 15:48:11.074 - Disconnecting camera 1
+2018-12-05 15:48:11.076 -  Done
+2018-12-05 15:48:11.076 - Disconnecting board /dev/ttyACM0
+2018-12-05 15:48:11.077 -  Done
+2018-12-05 15:48:28.468 - Start application SDLs 1.3
+2018-12-05 15:48:31.220 - Connecting camera 1
+2018-12-05 15:48:33.474 -  Done
+2018-12-05 15:48:33.475 - Connecting board /dev/ttyACM0 115200
+2018-12-05 15:48:35.154 -  Done
+2018-12-05 15:51:21.683 - Start application SDLs 1.3
+2018-12-05 15:51:26.513 - Connecting camera 1
+2018-12-05 15:51:28.765 -  Done
+2018-12-05 15:51:28.766 - Connecting board /dev/ttyACM0 115200
+2018-12-05 15:51:30.446 -  Done
+2018-12-05 15:52:16.266 - Disconnecting camera 1
+2018-12-05 15:52:16.267 -  Done
+2018-12-05 15:52:16.267 - Disconnecting board /dev/ttyACM0
+2018-12-05 15:52:16.268 -  Done
+2018-12-05 15:52:17.735 - Finish application SDLs 1.3
+2018-12-05 15:52:47.087 - Start application SDLs 1.3
+2018-12-05 15:52:49.803 - Connecting camera 1
+2018-12-05 15:52:52.053 -  Done
+2018-12-05 15:52:52.053 - Connecting board /dev/ttyACM0 115200
+2018-12-05 15:52:53.733 -  Done
+2018-12-05 15:58:31.835 - Laser calibration 0
+2018-12-05 15:58:31.836 -  Distance: 226.846973248
+2018-12-05 15:58:31.836 -  Normal: [ 0.77410517 -0.01157515  0.63295119]
+2018-12-05 15:58:31.836 -  Standard deviation: 0.036916726089
+2018-12-05 15:58:31.836 -  Point cloud size: 4568
+2018-12-05 15:58:32.138 - Laser calibration 1
+2018-12-05 15:58:32.138 -  Distance: 227.839804912
+2018-12-05 15:58:32.138 -  Normal: [-0.75830957 -0.03510334  0.65094881]
+2018-12-05 15:58:32.139 -  Standard deviation: 0.0405929514203
+2018-12-05 15:58:32.139 -  Point cloud size: 2994
+2018-12-05 15:59:46.325 - Platform calibration 
+2018-12-05 15:59:46.326 -  Translation: [   5.32247423   87.15943125  363.33198097]
+2018-12-05 15:59:46.326 -  Rotation: [[  0.00000000e+00   9.99975569e-01  -6.99007839e-03] [  3.11841700e-02  -6.98667880e-03  -9.99489236e-01] [ -9.99513656e-01  -2.17979793e-04  -3.11834082e-02]]
+2018-12-05 15:59:46.327 -  Normal: [-0.00699008 -0.99948924 -0.03118341]
+2018-12-05 17:06:23.617 - Start application SDLs 1.3
+2018-12-05 17:06:44.852 - Connecting camera 1
+2018-12-05 17:06:45.709 - Disconnecting camera 1
+2018-12-05 17:06:45.710 -  Done
+2018-12-05 17:06:52.724 - Connecting camera 0
+2018-12-05 17:06:55.065 -  Done
+2018-12-05 17:06:55.065 - Connecting board /dev/ttyACM0 115200
+2018-12-05 17:06:56.743 -  Done
+2018-12-05 17:16:44.479 - Laser calibration 0
+2018-12-05 17:16:44.480 -  Distance: 226.294839716
+2018-12-05 17:16:44.480 -  Normal: [ 0.76993152 -0.0111385   0.6380293 ]
+2018-12-05 17:16:44.480 -  Standard deviation: 0.0449468508554
+2018-12-05 17:16:44.481 -  Point cloud size: 5070
+2018-12-05 17:16:45.003 - Laser calibration 1
+2018-12-05 17:16:45.004 -  Distance: 228.352287191
+2018-12-05 17:16:45.004 -  Normal: [-0.76434661 -0.03492125  0.64385927]
+2018-12-05 17:16:45.004 -  Standard deviation: 0.0482655266525
+2018-12-05 17:16:45.004 -  Point cloud size: 4117
+2018-12-05 17:17:55.115 - Platform calibration 
+2018-12-05 17:17:55.116 -  Translation: [   5.19587803   86.89741212  363.20782012]
+2018-12-05 17:17:55.116 -  Rotation: [[  0.00000000e+00   9.99958677e-01  -9.09091344e-03] [  3.33582920e-02  -9.08585396e-03  -9.99402157e-01] [ -9.99443457e-01  -3.03257345e-04  -3.33569135e-02]]
+2018-12-05 17:17:55.117 -  Normal: [-0.00909091 -0.99940216 -0.03335691]
+2018-12-05 17:19:03.139 - Start scan
+2018-12-05 17:20:02.323 - Finish scan 10 %  Time 00' 59"
+2018-12-05 17:20:02.342 - Disconnecting camera 0
+2018-12-05 17:20:02.343 -  Done
+2018-12-05 17:20:02.344 - Disconnecting board /dev/ttyACM0
+2018-12-05 17:20:02.344 -  Done
+2018-12-05 17:20:27.520 - Connecting camera 0
+2018-12-05 17:20:27.996 -  Done
+2018-12-05 17:20:27.996 - Connecting board /dev/ttyACM0 115200
+2018-12-05 17:20:29.677 -  Done
+2018-12-05 17:20:44.143 - Start scan
+2018-12-05 17:20:55.456 - Finish scan 0 %  Time 59' 19"
+2018-12-05 17:21:03.527 - Disconnecting camera 0
+2018-12-05 17:21:03.528 -  Done
+2018-12-05 17:21:03.529 - Disconnecting board /dev/ttyACM0
+2018-12-05 17:21:03.569 -  Done
+2018-12-05 17:21:21.671 - Connecting camera 0
+2018-12-05 17:21:22.144 -  Done
+2018-12-05 17:21:22.145 - Connecting board /dev/ttyACM0 115200
+2018-12-05 17:21:23.824 -  Done
+2018-12-05 17:21:31.767 - Disconnecting camera 0
+2018-12-05 17:21:31.767 -  Done
+2018-12-05 17:21:31.768 - Disconnecting board /dev/ttyACM0
+2018-12-05 17:21:31.769 -  Done
+2018-12-05 17:21:31.915 - Finish application SDLs 1.3
+2018-12-05 17:21:36.802 - Start application SDLs 1.3
+2018-12-05 17:21:38.879 - Connecting camera 0
+2018-12-05 17:21:41.148 -  Done
+2018-12-05 17:21:41.149 - Connecting board /dev/ttyACM0 115200
+2018-12-05 17:21:42.826 -  Done
+2018-12-05 17:22:06.950 - Start scan
+2018-12-05 17:22:51.415 - Finish scan 7 %  Time 00' 43"
+2018-12-05 17:23:03.317 - Start scan
+2018-12-05 17:32:08.225 - Finish scan 100 %  Time 09' 04"
+2018-12-05 17:37:59.146 - Start scan
+2018-12-05 17:44:33.014 - Finish scan 100 %  Time 06' 33"
+2018-12-05 17:46:02.314 - Start scan
+2018-12-05 17:50:11.957 - Finish scan 45 %  Time 04' 09"
+2018-12-05 17:50:11.972 - Disconnecting camera 0
+2018-12-05 17:50:11.974 -  Done
+2018-12-05 17:50:11.974 - Disconnecting board /dev/ttyACM0
+2018-12-05 17:50:11.974 -  Done
+2018-12-05 18:02:38.126 - Finish application SDLs 1.3

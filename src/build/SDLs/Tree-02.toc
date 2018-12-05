@@ -1,0 +1,10 @@
+('/usr/local/lib/python2.7/dist-packages/Horus-0.2rc1-py2.7.egg',
+ None,
+ set(['*.py',
+      '*.pyc',
+      '*.so',
+      '*.x86_64-linux-gnu.so',
+      '*module.so',
+      'EGG-INFO']),
+ 'DATA',
+ [])
